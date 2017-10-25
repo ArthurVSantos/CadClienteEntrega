@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cadcliente.arquidesis.usjt.br.cadcliente.MainActivity">
+
+
+    <Button
+        android:id="@+id/btninserir"
+        android:text="INSERIR"
+        android:onClick="inserir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnconsultar"
+        android:text="CONSULTAR"
+        android:onClick="consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnalterar"
+        android:text="ALTERAR"
+        android:onClick="alterar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btndeletar"
+        android:text="DELETAR"
+        android:onClick="deletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
